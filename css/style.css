@@ -1,1 +1,9 @@
-
+.userinput{
+  font-size: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 15px 50px;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  border: 1px solid black;
+}
