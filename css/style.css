@@ -1,8 +1,7 @@
 .userinput{
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px 10px;
   width: 100%;
-  border-radius: 15px 50px;
   box-sizing: border-box;
   margin-bottom: 2%;
   border: 1px solid black;
@@ -11,28 +10,36 @@ h1 {
   padding: 5px 10px;
   font-size: 20px;
   text-align:center;
+  font-size: 50px;
 }
 h2 {
   padding: 5px 10px;
   font-size: 20px;
   text-align:center;
+  font-size: 30px;
 }
 fieldset {
   padding: 20px 10px;
-  margin: 2% 10%
+  margin: 2% 15%
 }
 body {
   margin: 5%;
 }
 label {
-
+  font-size: 20px;
 }
+
 button {
   width: 40%;
   font-size:;
-  margin: 2% 30%;
+  margin: 1% 30%;
   padding: 5px;
+  font-size: 20px;
 }
 #owner {
 
+}
+legend {
+  font-size: 25px;
+  margin-left: 10px;
 }
