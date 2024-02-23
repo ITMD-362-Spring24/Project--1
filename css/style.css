@@ -1,32 +1,37 @@
 .userinput{
-  font-size: 15px;
-  padding: 5px 10px;
+  font-size: 0.938em; /* 15px */
+  padding: 5px 10px; 
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 2%;
+  margin-bottom: 2%; 
   border: 1px solid black;
 }
 h1 {
-  padding: 5px 10px;
-  font-size: 20px;
+  padding: 5px 10px; 
+  font-size: 1.25em; /* 20px */
   text-align:center;
-  font-size: 50px;
+  font-size: 3.125em; /* 50px */
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h2 {
-  padding: 5px 10px;
-  font-size: 20px;
+  padding: 5px 10px; 
+  font-size: 1.25em; /* 20px */
   text-align:center;
-  font-size: 30px;
+  font-size: 1.875em; /* 30px */
+  font-family: "Figtree", sans-serif;
 }
 fieldset {
-  padding: 20px 10px;
-  margin: 2% 15%
+  padding: 20px 10px; 
+  margin: 2% 15% 
 }
 body {
   margin: 5%;
 }
 label {
-  font-size: 20px;
+  font-size: 1.25em; /* 20px */
+  font-family: "Figtree", sans-serif;
 }
 
 button {
@@ -36,10 +41,14 @@ button {
   padding: 5px;
   font-size: 20px;
 }
-#owner {
-
-}
 legend {
-  font-size: 25px;
+  font-size: 1.563em; /* 25px */
   margin-left: 10px;
+  font-family: "Anton", sans-serif;
+}
+#input-birthday {
+  margin-bottom: 0.563em; /* 9px */
+}
+#input-recieve-emails {
+  margin-bottom: 0.563em; /* 9px */
 }
