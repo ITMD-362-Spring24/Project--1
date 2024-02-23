@@ -1,3 +1,10 @@
+/* Mobile First */
+@media screen and (min-width:600px) {
+  body {
+	
+  }
+}
+/*Desktop */
 .userinput{
   font-size: 0.938em; /* 15px */
   padding: 5px 10px; 
@@ -28,6 +35,7 @@ fieldset {
 }
 body {
   margin: 5%;
+  
 }
 label {
   font-size: 1.25em; /* 20px */
@@ -51,4 +59,9 @@ legend {
 }
 #input-recieve-emails {
   margin-bottom: 0.563em; /* 9px */
+}
+@media screen and (min-width:560px) {
+  body {
+	background-color: blue;
+  }
 }
