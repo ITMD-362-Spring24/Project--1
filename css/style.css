@@ -1,10 +1,4 @@
-/* Mobile First */
-@media screen and (min-width:600px) {
-  body {
-	
-  }
-}
-/*Desktop */
+/*mobile */
 .userinput{
   font-size: 0.938em; /* 15px */
   padding: 5px 10px; 
@@ -14,8 +8,6 @@
   border: 1px solid black;
 }
 h1 {
-  padding: 5px 10px; 
-  font-size: 1.25em; /* 20px */
   text-align:center;
   font-size: 3.125em; /* 50px */
   font-family: "Anton", sans-serif;
@@ -23,35 +15,32 @@ h1 {
   font-style: normal;
 }
 h2 {
-  padding: 5px 10px; 
-  font-size: 1.25em; /* 20px */
+  padding-bottom: 45px;
   text-align:center;
   font-size: 1.875em; /* 30px */
   font-family: "Figtree", sans-serif;
 }
 fieldset {
-  padding: 20px 10px; 
-  margin: 2% 15% 
+  padding: 20px 10px;  
 }
 body {
   margin: 5%;
-  
+  background-color: gray;
 }
 label {
-  font-size: 1.25em; /* 20px */
+  font-size: 0.938em; /* 15px */
   font-family: "Figtree", sans-serif;
 }
 
 button {
   width: 40%;
-  font-size:;
-  margin: 1% 30%;
+  margin: 2% 30%;
   padding: 5px;
   font-size: 20px;
+  font-family: "Figtree", sans-serif;
 }
 legend {
   font-size: 1.563em; /* 25px */
-  margin-left: 10px;
   font-family: "Anton", sans-serif;
 }
 #input-birthday {
@@ -60,8 +49,29 @@ legend {
 #input-recieve-emails {
   margin-bottom: 0.563em; /* 9px */
 }
-@media screen and (min-width:560px) {
+
+/* desktop */
+@media screen and (min-width:600px) {
   body {
-	background-color: blue;
+	background-color: red;
+  }
+  fieldset {
+	margin: 2% 15%;
+  }
+  label {
+	font-size: 1.25em; /* 20px */
+  }
+  button {
+	font-size: 1.25em; /*20px */
+	margin: 0.5% 30%;
+  }
+  legend {
+	margin-left: 10px;
+  }
+  h1 {
+    padding: 5px 10px; 
+  }
+  h2 {
+	padding: 5px 10px; 
   }
 }
