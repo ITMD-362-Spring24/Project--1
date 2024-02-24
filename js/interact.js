@@ -1,3 +1,3 @@
-function init(){
-	alert('it works');
+function showAlert(){
+  alert('it works');
 }
