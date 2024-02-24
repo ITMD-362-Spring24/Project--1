@@ -74,4 +74,22 @@ legend {
   h2 {
 	padding: 5px 10px; 
   }
+  img {
+	width: 30%;
+  }
+  #image {
+	line-height:250px;
+	width: 375px;
+    height: 250px;
+	border: 5px solid black;
+	margin: 0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 150%;
+  }
 }
