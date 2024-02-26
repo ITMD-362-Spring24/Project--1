@@ -25,7 +25,7 @@ fieldset {
 }
 body {
   margin: 5%;
-  background-color: gray;
+  background-color: #54b04f;
 }
 label {
   font-size: 0.938em; /* 15px */
@@ -49,11 +49,48 @@ legend {
 #input-recieve-emails {
   margin-bottom: 0.563em; /* 9px */
 }
-
+  img {
+	width: 30%;
+  }
+    .preview {
+	width: 14%;
+	margin-left: 17%;
+	border: 10px solid black;
+	
+  }
+    #image {
+	line-height:250px;
+	width: 400px;
+    height: 380px;
+	border: 5px solid black;
+	margin: 0 auto;
+    background-color: #d39115;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+	font-family: "Figtree", sans-serif;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+	margin-top: 10%;
+    font-size: 150%;
+  }
+    h3 {
+	margin: 0 auto;
+    margin-top:	10%;
+	text-align:center;
+    font-size: 1.875em; /* 30px */
+	font-family: "Anton", sans-serif;
+  }
+  h4 {
+	color: black;
+	font-family: "Figtree", sans-serif;
+  }
+  
 /* desktop */
 @media screen and (min-width:600px) {
   body {
-	background-color: red;
+	background-color: #20903a;
   }
   fieldset {
 	margin: 2% 15%;
@@ -80,28 +117,34 @@ legend {
 	text-align:center;
     font-size: 1.875em; /* 30px */
   }
+
   img {
 	width: 30%;
   }
   #image {
 	line-height:250px;
 	width: 400px;
-    height: 300px;
+    height: 380px;
 	border: 5px solid black;
 	margin: 0 auto;
-    background-color: #8e68ff;
+    background-color: #d39115;
     background-image: url('');
     background-repeat: no-repeat;
+	font-family: "Figtree", sans-serif;
     color:#FFFFFF;
     text-align: center;
     background-size: 100%;
     margin-bottom:25px;
-	margin-top: 15%;
+	margin-top: 10%;
     font-size: 150%;
   }
   .preview {
 	width: 10%;
 	margin-left: 17%;
 	border: 10px solid black;
+  }
+  h4 {
+	color: black;
+	font-family: "Figtree", sans-serif;
   }
 }
