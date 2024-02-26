@@ -10,3 +10,7 @@ function upDate(previewPic){
    document.getElementById('image').innerHTML="Hover over an image";
 }
 
+ /* the interactive photo gallery was by
+  Hiimaanshi dogra 
+  https://codepen.io/Himdogra/pen/oNjOBMW
+  */
