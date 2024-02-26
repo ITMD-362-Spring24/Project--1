@@ -1,3 +1,8 @@
+ /* the interactive photo gallery was by
+  Hiimaanshi dogra 
+  https://codepen.io/Himdogra/pen/oNjOBMW
+  */
+
 function upDate(previewPic){
   var src=previewPic.getAttribute("src");
    var alt=previewPic.getAttribute("alt");
@@ -9,8 +14,3 @@ function upDate(previewPic){
   document.getElementById('image').style.backgroundImage="none";
    document.getElementById('image').innerHTML="Hover over an image";
 }
-
- /* the interactive photo gallery was by
-  Hiimaanshi dogra 
-  https://codepen.io/Himdogra/pen/oNjOBMW
-  */
