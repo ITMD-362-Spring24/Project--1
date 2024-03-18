@@ -30,14 +30,15 @@ fieldset {
 }
 body {
   margin: 5%;
-  background-color: #54b04f;
+  
+  background-image: url("../images.PineForest.jpg")
 }
 label {
   font-size: 0.938em; /* 15px */
   font-family: "Josefin Slab", serif;
 }
 
-#submit {
+#Subscribe {
   width: 40%;
   margin: 2% 30%;
   padding: 5px;
@@ -100,7 +101,7 @@ legend {
   fieldset {
 	margin: 2% 5%;
   }
-  #submit {
+  #Subscribe {
 	font-size: 1.25em; /*20px */
 	margin: 0.5% 30%;
   }
@@ -160,7 +161,7 @@ legend {
   label {
 	font-size: 1.25em; /* 20px */
   }
-  #submit {
+  #Subscribe {
 	font-size: 1.25em; /*20px */
 	margin: 0.5% 30%;
   }
