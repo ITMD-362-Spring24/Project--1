@@ -15,7 +15,7 @@
 h1 {
   text-align:center;
   font-size: 3.125em; /* 50px */
-  font-family: "Anton", sans-serif;
+  font-family: "Maiden Orange", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -23,7 +23,7 @@ h2 {
   padding-bottom: 45px;
   text-align:center;
   font-size: 1.875em; /* 30px */
-  font-family: "Figtree", sans-serif;
+  font-family: "Josefin Slab", serif;
 }
 fieldset {
   padding: 20px 10px;  
@@ -34,19 +34,19 @@ body {
 }
 label {
   font-size: 0.938em; /* 15px */
-  font-family: "Figtree", sans-serif;
+  font-family: "Josefin Slab", serif;
 }
 
-submit {
+#submit {
   width: 40%;
   margin: 2% 30%;
   padding: 5px;
   font-size: 20px;
-  font-family: "Figtree", sans-serif;
+  font-family: "Josefin Slab", serif;
 }
 legend {
   font-size: 1.563em; /* 25px */
-  font-family: "Anton", sans-serif;
+  font-family: "Maiden Orange", serif;
 }
 #input-birthday {
   margin-bottom: 0.563em; /* 9px */
@@ -73,7 +73,7 @@ legend {
     background-image: url('');
     background-repeat: no-repeat;
     color:#FFFFFF;
-	font-family: "Figtree", sans-serif;
+	font-family: "Josefin Slab", serif;
     text-align: center;
     background-size: 100%;
     margin-bottom:25px;
@@ -85,11 +85,11 @@ legend {
     margin-top:	10%;
 	text-align:center;
     font-size: 1.875em; /* 30px */
-	font-family: "Anton", sans-serif;
+	font-family: "Maiden Orange", serif;
   }
   h4 {
 	color: black;
-	font-family: "Figtree", sans-serif;
+	font-family: "Josefin Slab", serif;
   }
   
 /* tablet */
@@ -100,7 +100,7 @@ legend {
   fieldset {
 	margin: 2% 5%;
   }
-  submit {
+  #submit {
 	font-size: 1.25em; /*20px */
 	margin: 0.5% 30%;
   }
@@ -131,7 +131,7 @@ legend {
 	background-color: #d39115;
 	background-image: url('');
 	background-repeat: no-repeat;
-	font-family: "Figtree", sans-serif;
+	font-family: "Josefin Slab", serif;
 	color:#FFFFFF;
 	text-align: center;
 	background-size: 100%;
@@ -160,7 +160,7 @@ legend {
   label {
 	font-size: 1.25em; /* 20px */
   }
-  submit {
+  #submit {
 	font-size: 1.25em; /*20px */
 	margin: 0.5% 30%;
   }
@@ -192,7 +192,7 @@ legend {
     background-color: #d39115;
     background-image: url('');
     background-repeat: no-repeat;
-	font-family: "Figtree", sans-serif;
+	font-family: "Josefin Slab", serif;
     color:#FFFFFF;
     text-align: center;
     background-size: 100%;
@@ -207,6 +207,6 @@ legend {
   }
   h4 {
 	color: black;
-	font-family: "Figtree", sans-serif;
+	font-family: "Josefin Slab", serif;
   }
 }
