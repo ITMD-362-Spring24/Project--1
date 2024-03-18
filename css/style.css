@@ -30,8 +30,10 @@ fieldset {
 }
 body {
   margin: 5%;
-  
-  background-image: url("../images.PineForest.jpg")
+  background-image: url("../images/PineForest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 label {
   font-size: 0.938em; /* 15px */
@@ -70,7 +72,6 @@ legend {
     height: 330px;
 	border: 5px solid black;
 	margin: 0 auto;
-    background-color: #d39115;
     background-image: url('');
     background-repeat: no-repeat;
     color:#FFFFFF;
@@ -96,7 +97,10 @@ legend {
 /* tablet */
 @media screen and (min-width:600px) {
   body {
-	background-color: #902076;
+	background-image: url("../images/PineForest.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
   }
   fieldset {
 	margin: 2% 5%;
@@ -129,7 +133,6 @@ legend {
 	height: 380px;
 	border: 5px solid black;
 	margin: 0 auto;
-	background-color: #d39115;
 	background-image: url('');
 	background-repeat: no-repeat;
 	font-family: "Josefin Slab", serif;
@@ -153,7 +156,10 @@ legend {
 /* desktop */
 @media screen and (min-width:800px) {
   body {
-	background-color: #20903a;
+	background-image: url("../images/PineForest.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
   }
   fieldset {
 	margin: 2% 15%;
@@ -190,7 +196,6 @@ legend {
     height: 380px;
 	border: 5px solid black;
 	margin: 0 auto;
-    background-color: #d39115;
     background-image: url('');
     background-repeat: no-repeat;
 	font-family: "Josefin Slab", serif;
