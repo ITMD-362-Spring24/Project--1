@@ -37,7 +37,7 @@ label {
   font-family: "Figtree", sans-serif;
 }
 
-button {
+submit {
   width: 40%;
   margin: 2% 30%;
   padding: 5px;
@@ -100,7 +100,7 @@ legend {
   fieldset {
 	margin: 2% 5%;
   }
-  button {
+  submit {
 	font-size: 1.25em; /*20px */
 	margin: 0.5% 30%;
   }
@@ -160,7 +160,7 @@ legend {
   label {
 	font-size: 1.25em; /* 20px */
   }
-  button {
+  submit {
 	font-size: 1.25em; /*20px */
 	margin: 0.5% 30%;
   }
