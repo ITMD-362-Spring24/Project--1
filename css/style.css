@@ -74,7 +74,6 @@ legend {
 	margin: 0 auto;
     background-image: url('');
     background-repeat: no-repeat;
-    color:#FFFFFF;
 	font-family: "Josefin Slab", serif;
     text-align: center;
     background-size: 100%;
@@ -136,7 +135,6 @@ legend {
 	background-image: url('');
 	background-repeat: no-repeat;
 	font-family: "Josefin Slab", serif;
-	color:#FFFFFF;
 	text-align: center;
 	background-size: 100%;
 	margin-bottom:25px;
@@ -186,6 +184,10 @@ legend {
 	text-align:center;
     font-size: 1.875em; /* 30px */
   }
+  h4 {
+	color: black;
+	font-family: "Josefin Slab", serif;
+  }
 
   img {
 	width: 30%;
@@ -199,7 +201,6 @@ legend {
     background-image: url('');
     background-repeat: no-repeat;
 	font-family: "Josefin Slab", serif;
-    color:#FFFFFF;
     text-align: center;
     background-size: 100%;
     margin-bottom:25px;
